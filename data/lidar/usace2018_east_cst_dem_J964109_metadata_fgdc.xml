@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="https://www.ngdc.noaa.gov/metadata/published/xsd/ngdcSchema/schema.xsd">
+   <idinfo>
+      <datsetid>gov.noaa.nmfs.inport:55882</datsetid>
+      <citation>
+         <citeinfo>
+            <pubdate>20190318</pubdate>
+            <title>2018 USACE NCMP Topobathy Lidar DEM: East Coast (CT, MA, ME, NC, NH, RI, SC))</title>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>
+              This metadata record was derived from an ISO format record and may be missing components. See the ISO version for more information.
+                These files contain rasterized topobathy lidar elevations generated from data collected by the Coastal Zone Mapping and Imaging Lidar (CZMIL) system. CZMIL integrates a lidar sensor with simultaneous topographic and bathymetric capabilities, a digital camera and a hyperspectral imager on a single remote sensing platform for use in coastal mapping and charting activities. Native lidar data is not generally in a format accessible to most Geographic Information Systems (GIS). Specialized in-house and commercial software packages are used to process the native lidar data into 3-dimensional positions that can be imported into GIS software for visualization and further analysis. The 3-D position data are sub-divided into a series of LAS files, which are tiled into 1-km by 1-km boxes defined by the Military Grid Reference System. 
+In addition to these bare earth Digital Elevation Model (DEM) data, the lidar point data that these DEM data were created from, and the CT RGB imagery are also available. These data are available for custom download at the links provided in the URL section of this metadata record.
+This data set is a raster file with 3906 columns and 2737 rows and may have been mosaiced, reprojected, and clipped from the original tiles. The data set was generated from a larger data set and includes all valid data within the requested geographic bounds.
+		</abstract>
+         <purpose>This data was collected by USACE on behalf of the USACE NCMP to assess elevations above and below water along the coast of Connecticut, Maine, Massachusetts, New Hampshire, Rhode Island, North Carolina and South Carolina.</purpose>
+      </descript>
+      <status>
+         <progress>Complete</progress>
+         <update>asNeeded</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>
+		-70.812549590000017
+		</westbc>
+            <eastbc>
+		-70.76568604000002
+		</eastbc>
+            <northbc>44.404295</northbc>
+            <southbc>32.040435</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>Global Change Master Directory (GCMD) Science Keywords</themekt>
+            <themekey>EARTH SCIENCE &gt; HUMAN DIMENSIONS &gt; ENVIRONMENTAL GOVERNANCE/MANAGEMENT &gt; LAND MANAGEMENT &gt; LAND USE CLASSES</themekey>
+            <themekey>EARTH SCIENCE &gt; LAND SURFACE &gt; GEOMORPHIC LANDFORMS/PROCESSES &gt; COASTAL LANDFORMS</themekey>
+            <themekey>EARTH SCIENCE &gt; LAND SURFACE &gt; GEOMORPHIC LANDFORMS/PROCESSES &gt; COASTAL PROCESSES</themekey>
+            <themekey>EARTH SCIENCE &gt; LAND SURFACE &gt; TOPOGRAPHY &gt; TERRAIN ELEVATION</themekey>
+            <themekey>EARTH SCIENCE &gt; OCEANS &gt; BATHYMETRY/SEAFLOOR TOPOGRAPHY &gt; BATHYMETRY</themekey>
+            <themekey>EARTH SCIENCE &gt; OCEANS &gt; BATHYMETRY/SEAFLOOR TOPOGRAPHY &gt; SEAFLOOR TOPOGRAPHY</themekey>
+            <themekey>EARTH SCIENCE &gt; OCEANS &gt; COASTAL PROCESSES &gt; COASTAL ELEVATION</themekey>
+         </theme>
+         <theme>
+            <themekey>U.S. Army Corps of Engineers (USACE)</themekey>
+         </theme>
+         <place>
+            <placekt>Global Change Master Directory (GCMD) Location Keywords</placekt>
+            <placekey>CONTINENT &gt; NORTH AMERICA &gt; UNITED STATES OF AMERICA &gt; CONNECTICUT</placekey>
+            <placekey>CONTINENT &gt; NORTH AMERICA &gt; UNITED STATES OF AMERICA &gt; MAINE</placekey>
+            <placekey>CONTINENT &gt; NORTH AMERICA &gt; UNITED STATES OF AMERICA &gt; MASSACHUSETTS</placekey>
+            <placekey>CONTINENT &gt; NORTH AMERICA &gt; UNITED STATES OF AMERICA &gt; NEW HAMPSHIRE</placekey>
+            <placekey>CONTINENT &gt; NORTH AMERICA &gt; UNITED STATES OF AMERICA &gt; NORTH CAROLINA</placekey>
+            <placekey>CONTINENT &gt; NORTH AMERICA &gt; UNITED STATES OF AMERICA &gt; RHODE ISLAND</placekey>
+            <placekey>CONTINENT &gt; NORTH AMERICA &gt; UNITED STATES OF AMERICA &gt; SOUTH CAROLINA</placekey>
+            <placekey>VERTICAL LOCATION &gt; LAND SURFACE</placekey>
+            <placekey>VERTICAL LOCATION &gt; SEA FLOOR</placekey>
+         </place>
+         <temporal>
+            <tempkey>2018</tempkey>
+            <tempkey>August</tempkey>
+            <tempkey>July</tempkey>
+            <tempkey>June</tempkey>
+            <tempkey>May</tempkey>
+            <tempkey>September</tempkey>
+         </temporal>
+      </keywords>
+      <accconst>Restriction Code: otherRestrictions;  </accconst>
+      <useconst>Use Limitation: NOAA provides no warranty, nor accepts any liability occurring from any incomplete, incorrect, or misleading data, or from any incorrect, incomplete, or misleading use of the data. It is the responsibility of the user to determine whether or not the data is suitable for the intended purpose.;   Other: 
+		This data set was compiled dynamically, and will exist on https://chs.coast.noaa.gov/pickup/dav/964109/usace2018_east_cst_dem_J964109.zip until 10 days after 02/02/2024. The file will then be deleted from the system.
+			Cite As: OCM Partners, [Date of Access]: 2018 USACE NCMP Topobathy Lidar DEM: East Coast (CT, MA, ME, NC, NH, RI, SC)) [Data Date Range], https://www.fisheries.noaa.gov/inport/item/55882.;   Other: 
+		This data set was compiled dynamically, and will exist on https://chs.coast.noaa.gov/pickup/dav/964109/usace2018_east_cst_dem_J964109.zip until 10 days after 02/02/2024. The file will then be deleted from the system.
+			Access Constraints: These data have been developed from the best available sources. Although efforts have been made to ensure that the data are accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to these data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. | Use Constraints: These data depict the heights at the time of the survey and are only accurate for that time. Acknowledgement of the Joint Airborne Lidar Bathymetry Technical Center of eXpertise (JALBTCX) would be appreciated in any publications or derived products. The data herein, including but not limited to geographic data, tabular data, analytical data, electronic data structures or files, are provided "as is" without warranty of any kind, either expressed or implied, or statutory, including, but not limited to, the implied warranties or merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the data is assumed by the user. No guarantee of accuracy is granted, nor is any responsibility for reliance thereon assumed. In no event shall the U.S. Army Corps of Engineers, Mobile District Office, Spatial Data Branch be liable for direct, indirect, incidental, consequential or special damages of any kind, including, but not limited to, loss of anticipated profits or benefits arising out of use of or reliance on the data. The Spatial Data Branch does not accept liability for any damages or misrepresentation caused by inaccuracies in the data or as a result of changes to the data caused by system transfers or other transformations or conversions, nor is there responsibility assumed to maintain the data in any manner or form.  Users should be aware that temporal changes may have occurred since this dataset was collected and that some parts of these data may no longer represent actual surface conditions. Users should not use these data for critical applications without a full awareness of its limitations. | Distribution Liability: These data have been developed from the best available sources. Although efforts have been made to ensure that the data are accurate and reliable, errors and variable conditions originating from physical sources used to develop the data may be reflected in the data supplied. Users must be aware of these conditions and bear responsibility for the appropriate use of the information with respect to possible errors, scale, resolution, rectification, positional accuracy, development methodology, time period, environmental and climatic conditions and other circumstances specific to these data. The user is responsible for understanding the accuracy limitations of the data provided herein. The burden for determining fitness for use lies entirely with the user. The user should refer to the accompanying metadata notes for a description of the data and data development procedures. Any conclusions drawn from the analysis of this information are not the responsibility of USACE, JALBTCX, the Office for Coastal Management, or its partners.;   </useconst>
+   </idinfo>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>NOAA Office for Coastal Management</cntorg>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>physical and mailing</addrtype>
+               <address>2234 South Hobson Ave</address>
+               <city>Charleston</city>
+               <state>SC</state>
+               <postal>29405-2413</postal>
+            </cntaddr>
+            <cntvoice>(843) 740-1202</cntvoice>
+            <cntemail>coastal.info@noaa.gov</cntemail>
+         </cntinfo>
+      </distrib>
+      <distliab>Unknown </distliab>
+   </distinfo>
+   <metainfo>
+      <metd>20240110</metd>
+      <metc>
+         <cntinfo>
+            <cntperp>
+               <cntorg>OCM Partners</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing and physical</addrtype>
+            </cntaddr>
+            <cntvoice>missing</cntvoice>
+         </cntinfo>
+      </metc>
+      <metc>
+         <cntinfo>
+            <cntperp>
+               <cntorg>NOAA Office for Coastal Management</cntorg>
+            </cntperp>
+            <cntaddr>
+               <addrtype>mailing and physical</addrtype>
+               <address>2234 South Hobson Ave</address>
+               <city>Charleston</city>
+               <state>SC</state>
+               <postal>29405-2413</postal>
+            </cntaddr>
+            <cntvoice>(843) 740-1202</cntvoice>
+            <cntemail>coastal.info@noaa.gov</cntemail>
+         </cntinfo>
+      </metc>
+      <metstdn>Content Standard for Digital Geospatial Metadata: Extensions for Remote Sensing Metadata</metstdn>
+      <metstdv>FGDC-STD-012-2002</metstdv>
+   </metainfo>
+</metadata>
